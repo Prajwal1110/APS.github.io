@@ -1,15 +1,26 @@
-# APS.github.io
+<dl>
+<dt>Course Name</dt>
+<dd>Algorithmic Problem Solving</dd>
+<dt>Course Code</dt>
+<dd>23ECSE309</dd>
+<dt>Name</dt>
+<dd>Prajwal Mutnal</dd>
+<dt>University</dt>
+<dd>KLE Technological University, Hubballi-31</dd>
+</dl>
 
-# GITHUB
+* * *
 
-  # Course Name
-## Data Structures and Algorithms and Data Structures and Algorithms Lab
+> A step towards better Github management
+>
 
-  # Course Code
-## 19ECSC201 and 19ECSP201
 
- # Course Instructor
-## Prakash Hegade
-## University
-## KLE Technological University, Hubballi-31
+#### Note:
+This page hosts:
 
+1. Introduction
+2. Why Portfolio
+3. Objectives
+4. Design
+5. Challenges
+6. To-Do
