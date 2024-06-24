@@ -1,6 +1,15 @@
-/* Change the background color */
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+/* Apply Fonts */
 body {
+    font-family: 'Lora', serif;
     background-color: #f0f0f0;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Customize the navigation bar */
@@ -11,9 +20,4 @@ body {
 
 .navbar a {
     color: #fff;
-}
-
-/* Customize the font */
-body {
-    font-family: 'Open Sans', sans-serif;
 }
