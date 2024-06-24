@@ -18,3 +18,11 @@ social:
 
 # Google Analytics
 google_analytics: UA-XXXXXXXX-X
+
+# Custom CSS
+markdown: kramdown
+kramdown:
+  input: GFM
+sass:
+  style: compressed
+include: ['_pages', '_sass', 'assets']
