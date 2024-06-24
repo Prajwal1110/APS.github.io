@@ -1,1 +1,20 @@
+title: My Awesome Site
+description: A simple and clean Jekyll theme for your project
+baseurl: ""
+url: "https://yourdomain.com"
 theme: jekyll-theme-cayman
+
+# Navigation links
+header_pages:
+  - index.md
+  - about.md
+  - contact.md
+
+# Social Links
+social:
+  twitter: your_twitter_handle
+  github: your_github_handle
+  linkedin: your_linkedin_handle
+
+# Google Analytics
+google_analytics: UA-XXXXXXXX-X
