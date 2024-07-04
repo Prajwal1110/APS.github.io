@@ -1,26 +1,48 @@
-<dl>
-<dt>Course Name</dt>
-<dd>Algorithmic Problem Solving</dd>
-<dt>Course Code</dt>
-<dd>23ECSE309</dd>
-<dt>Name</dt>
-<dd>Prakash Hegade</dd>
-<dt>University</dt>
-<dd>KLE Technological University, Hubballi-31</dd>
-</dl>
+# Ola,Uber: Investigating Intelligent Data Structures
 
-* * *
+## Course Information
 
-> A step towards better Github management
->
+- **Course Name:** Algorithmic Problem Solving
+- **Course Code:** 23ECSE309
+- **Student Name:** Prajwal Mutnal
+- **SRN:** 01fe21bcs159
+- **Course Instructor:** Prakash Hegade
+- **University:** KLE Technological University, Hubballi-31
 
+## Portfolio Topic/Domain: OLA,UBER
 
-#### Note:
-This page hosts:
+### A Move Towards Enhanced Google Service Management
 
-1. Introduction
-2. Why Portfolio
-3. Objectives
-4. Design
-5. Challenges
-6. To-Do
+---
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Objectives/Need of Portfolio](#objectivesneed-of-portfolio)
+- [Algorithms and Data Structures: Business Use Cases and Applications](#algorithms-and-data-structures-business-use-cases-and-applications)
+
+## Introduction
+
+Welcome to the portfolio project on **Ola,Uber: Investigating Intelligent Data Structures**. This project is a deep dive into the advanced algorithms and data structures that power OLA and UBER services, enabling enhanced service management and efficiency.
+
+## Objectives/Need of Portfolio
+
+The main objectives of this portfolio are:
+
+- To understand the significance of advanced algorithms and data structures that OLA and UBER is using.
+- To explore various business use cases and applications of these algorithms and data structures.
+- To analyze the impact of these technologies on service management and user experience.
+
+## Algorithms and Data Structures: Business Use Cases and Applications
+
+In this section, we will explore various algorithms and data structures used by OLA and UBER to manage their services efficiently. Some of the key focus areas will include:
+
+1. **Search Algorithms**: How Google optimizes search results using advanced algorithms.
+2. **Data Structures**: The role of data structures like B-trees, hash tables, and graphs in managing large-scale data.
+3. **Machine Learning Algorithms**: Implementation of machine learning algorithms for improving service recommendations and user personalization.
+4. **Optimization Techniques**: Techniques used by Google to optimize resource allocation and service delivery.
+5. **Real-World Applications**: Business use cases and real-world applications of these algorithms and data structures in OLA and UBER services.
+
+---
+
+This portfolio aims to provide a comprehensive understanding of how OLA and UBER leverage cutting-edge algorithms and data structures to maintain their competitive edge and deliver exceptional services to their users.
