@@ -1,28 +1,6 @@
-title: My Awesome Site
-description: A simple and clean Jekyll theme for your project
-baseurl: "" # Ensure this is correct
-url: "https://yourdomain.com" # Update with your actual domain
-theme: jekyll-theme-cayman
+# _config.yml
 
-# Navigation links
-header_pages:
-  - index.md
-  - about.md
-  - contact.md
+remote_theme: pages-themes/leap-day@v0.2.0
 
-# Social Links
-social:
-  twitter: your_twitter_handle
-  github: your_github_handle
-  linkedin: your_linkedin_handle
-
-# Google Analytics
-google_analytics: UA-XXXXXXXX-X
-
-# Custom CSS
-markdown: kramdown
-kramdown:
-  input: GFM
-sass:
-  style: compressed
-include: ['_pages', '_sass', 'assets']
+plugins:
+  - jekyll-remote-theme
