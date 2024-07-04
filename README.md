@@ -1,4 +1,4 @@
-# Ola,Uber: Investigating Intelligent Data Structures
+# Ola and Uber: Investigating Intelligent Data Structures
 
 ## Course Information
 
