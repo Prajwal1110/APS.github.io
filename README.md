@@ -23,7 +23,7 @@
 
 ## Introduction
 
-Welcome to the Portfolio Project on **Ola,Uber: Investigating Intelligent Data Structures**. This project is a deep dive into the advanced algorithms and data structures that power OLA and UBER services, enabling enhanced service management and efficiency.\n
+Welcome to the Portfolio Project on **Ola,Uber: Investigating Intelligent Data Structures**. This project is a deep dive into the advanced algorithms and data structures that power OLA and UBER services, enabling enhanced service management and efficiency.<br>
 Ola and Uber are the prominent ride-hailing services in the world.They provide users with a convenient way to book rides through mobile applications, leveraging complex algorithms and data structures to ensure efficiency, reliability, and scalability.
 
 ## Objectives/Need of Portfolio
@@ -39,11 +39,9 @@ The main objectives of this portfolio are:
 
 In this section, we will explore various algorithms and data structures used by OLA and UBER to manage their services efficiently. Some of the key focus areas will include:
 
-1. **Search Algorithms**: How Google optimizes search results using advanced algorithms.
-2. **Data Structures**: The role of data structures like B-trees, hash tables, and graphs in managing large-scale data.
-3. **Machine Learning Algorithms**: Implementation of machine learning algorithms for improving service recommendations and user personalization.
-4. **Optimization Techniques**: Techniques used by Google to optimize resource allocation and service delivery.
-5. **Real-World Applications**: Business use cases and real-world applications of these algorithms and data structures in OLA and UBER services.
+1. **User Registration and Management**:
+    Hash Tables
+
 
 ---
 
