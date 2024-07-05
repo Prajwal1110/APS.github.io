@@ -17,5 +17,5 @@ Hash tables use a hashing function to store and retrieve user data efficiently.
 ## Code Example
 
 Here is an example of how hash tables can be used for user registration and management in C++:
-assests/hashtable.png
+[assests/hashtable.png](https://github.com/Prajwal1110/APS.github.io/blob/d8da947c67fbc07feac7908e9b8ba6fb502f1856/assests/hashtable.png)
 
