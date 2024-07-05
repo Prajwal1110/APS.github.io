@@ -18,22 +18,56 @@ Hash tables use a hashing function to store and retrieve user data efficiently.
 
 Here is an example of how hash tables can be used for user registration and management:
 
-```python
-class UserHashTable:
-    def __init__(self):
-        self.table = {}
+```C++
+#include <iostream>
+#include <unordered_map>
+#include <string>
 
-    def add_user(self, user_id, user_info):
-        self.table[user_id] = user_info
+using namespace std;
 
-    def get_user(self, user_id):
-        return self.table.get(user_id)
+// Define a structure for UserHashTable
+class UserHashTable {
+private:
+    unordered_map<string, unordered_map<string, string>> table;
 
-    def delete_user(self, user_id):
-        if user_id in self.table:
-            del self.table[user_id]
+public:
+    void addUser(const string& userId, const unordered_map<string, string>& userInfo) {
+        table[userId] = userInfo;
+    }
 
-# Example usage
-users = UserHashTable()
-users.add_user('user1', {'name': 'Alice', 'rides': []})
-print(users.get_user('user1'))
+    unordered_map<string, string> getUser(const string& userId) {
+        if (table.find(userId) != table.end()) {
+            return table[userId];
+        }
+        return {}; // Return empty map if user not found
+    }
+
+    void deleteUser(const string& userId) {
+        if (table.find(userId) != table.end()) {
+            table.erase(userId);
+        }
+    }
+};
+
+int main() {
+    UserHashTable users;
+
+    // Example usage
+    unordered_map<string, string> userInfo = {{"name", "Prakash"}, {"rides", ""}};
+    users.addUser("user1", userInfo);
+
+    unordered_map<string, string> user = users.getUser("user1");
+    if (!user.empty()) {
+        cout << "User found:" << endl;
+        for (const auto& entry : user) {
+            cout << entry.first << ": " << entry.second << endl;
+        }
+    } else {
+        cout << "User not found." << endl;
+    }
+
+    users.deleteUser("user1");
+
+    return 0;
+}
+
