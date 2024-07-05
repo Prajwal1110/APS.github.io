@@ -12,35 +12,77 @@
 - **Improved User Satisfaction:** Faster response times enhance user experience.
 
 ## Algorithm
-- **Heap Implementation:** Using heapq in Python for min-heap operations.
+- **Heap Implementation:** Using priority_queue in C++ for min-heap operations.
 - **Matching Strategy:** Match the closest available driver to a rider based on priority.
 
-## Example Code (Python)
+## Example Code (C++)
 
-```python
-import heapq
+```cpp
+#include <iostream>
+#include <queue>
+#include <vector>
+#include <tuple>
 
-class RideMatching:
-    def __init__(self):
-        self.drivers = []
-        self.riders = []
+using namespace std;
 
-    def add_driver(self, driver_info):
-        heapq.heappush(self.drivers, driver_info)
+// Define a structure for driver and rider information
+struct Driver {
+    int id;
+    string name;
+    // You can add more attributes as needed
+    bool operator<(const Driver& other) const {
+        return id > other.id; // Min-heap based on driver id
+    }
+};
 
-    def add_rider(self, rider_info):
-        heapq.heappush(self.riders, rider_info)
+struct Rider {
+    int id;
+    string name;
+    // You can add more attributes as needed
+    bool operator<(const Rider& other) const {
+        return id > other.id; // Min-heap based on rider id
+    }
+};
 
-    def match_ride(self):
-        if self.drivers and self.riders:
-            driver = heapq.heappop(self.drivers)
-            rider = heapq.heappop(self.riders)
-            return (driver, rider)
-        return None
+class RideMatching {
+private:
+    priority_queue<Driver> drivers;
+    priority_queue<Rider> riders;
 
-# Example usage
-ride_matching = RideMatching()
-ride_matching.add_driver((1, 'driver1'))
-ride_matching.add_rider((1, 'rider1'))
-print(ride_matching.match_ride())
+public:
+    void addDriver(const Driver& driver) {
+        drivers.push(driver);
+    }
 
+    void addRider(const Rider& rider) {
+        riders.push(rider);
+    }
+
+    tuple<Driver, Rider> matchRide() {
+        if (!drivers.empty() && !riders.empty()) {
+            Driver driver = drivers.top();
+            Rider rider = riders.top();
+            drivers.pop();
+            riders.pop();
+            return make_tuple(driver, rider);
+        }
+        return make_tuple(Driver{-1, ""}, Rider{-1, ""}); // Return default if no match
+    }
+};
+
+int main() {
+    RideMatching rideMatching;
+
+    // Example usage
+    rideMatching.addDriver({1, "driver1"});
+    rideMatching.addRider({1, "rider1"});
+
+    auto [driver, rider] = rideMatching.matchRide();
+    if (driver.id != -1 && rider.id != -1) {
+        cout << "Matched Driver: " << driver.name << ", Rider: " << rider.name << endl;
+    } else {
+        cout << "No match found!" << endl;
+    }
+
+    return 0;
+}
