@@ -15,10 +15,5 @@ In the context of ride-hailing services like Ola and Uber, hash tables are a cru
 Hash tables use a hashing function to store and retrieve user data efficiently.
 
 ## Code Example
-[Hashtable](hashtable.cpp)
-
-    users.deleteUser("user1");
-
-    return 0;
-}
+[Hashtable]https://github.com/Prajwal1110/APS.github.io/blob/2304af33e666e0761fef95591c9c551af5dd32a2/codes/hashtable.cpp
 
