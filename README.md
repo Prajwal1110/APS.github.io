@@ -1,4 +1,4 @@
-# Ola and Uber: Investigating Intelligent Data Structures
+  # Ola and Uber: Investigating Intelligent Data Structures
 
 ## Course Information
 
@@ -23,15 +23,17 @@
 
 ## Introduction
 
-Welcome to the portfolio project on **Ola,Uber: Investigating Intelligent Data Structures**. This project is a deep dive into the advanced algorithms and data structures that power OLA and UBER services, enabling enhanced service management and efficiency.
+Welcome to the Portfolio Project on **Ola,Uber: Investigating Intelligent Data Structures**. This project is a deep dive into the advanced algorithms and data structures that power OLA and UBER services, enabling enhanced service management and efficiency.
+Ola and Uber are the prominent ride-hailing services in the world.They provide users with a convenient way to book rides through mobile applications, leveraging complex algorithms and data structures to ensure efficiency, reliability, and scalability.
 
 ## Objectives/Need of Portfolio
 
 The main objectives of this portfolio are:
 
-- To understand the significance of advanced algorithms and data structures that OLA and UBER is using.
+- To understand the significance of advanced algorithms and data structures that OLA and UBER is using for Efficient Data Management.
 - To explore various business use cases and applications of these algorithms and data structures.
-- To analyze the impact of these technologies on service management and user experience.
+- To analyze the impact of these technologies for user Experience.
+- To analyse the data and Insights
 
 ## Algorithms and Data Structures: Business Use Cases and Applications
 
