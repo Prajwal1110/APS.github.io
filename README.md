@@ -40,7 +40,11 @@ The main objectives of this portfolio are:
 In this section, we will explore various algorithms and data structures used by OLA and UBER to manage their services efficiently. Some of the key focus areas will include:
 
 1. **User Registration and Management**:
-    Hash Tables
+    <br>[Hash Tables](hashtable.md) 
+2. **Ride Matching**:
+    <br>[Ride Matching](ridematching.md)
+3. **Real-Time Tracking**:
+    <br>[Real-Time Tracking](realtimetracking.md)
 
 
 ---
