@@ -23,7 +23,7 @@
 
 ## Introduction
 
-Welcome to the Portfolio Project on **Ola,Uber: Investigating Intelligent Data Structures**. This project is a deep dive into the advanced algorithms and data structures that power OLA and UBER services, enabling enhanced service management and efficiency.
+Welcome to the Portfolio Project on **Ola,Uber: Investigating Intelligent Data Structures**. This project is a deep dive into the advanced algorithms and data structures that power OLA and UBER services, enabling enhanced service management and efficiency.\n
 Ola and Uber are the prominent ride-hailing services in the world.They provide users with a convenient way to book rides through mobile applications, leveraging complex algorithms and data structures to ensure efficiency, reliability, and scalability.
 
 ## Objectives/Need of Portfolio
