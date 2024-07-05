@@ -45,6 +45,8 @@ In this section, we will explore various algorithms and data structures used by 
     <br>[Ride Matching](ridematching.md)
 3. **Real-Time Tracking**:
     <br>[Real-Time Tracking](realtimetracking.md)
+4. **Dynamic Pricing**:
+   <br>[Dynamic Pricing](dynamicpricing.md)
 
 
 ---
