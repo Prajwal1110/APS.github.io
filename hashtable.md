@@ -16,7 +16,7 @@ Hash tables use a hashing function to store and retrieve user data efficiently.
 
 ## Code Example
 
-Here is an example of how hash tables can be used for user registration and management:
+Here is an example of how hash tables can be used for user registration and management in C++:
 
 ```cpp
 #include <iostream>
@@ -70,4 +70,3 @@ int main() {
 
     return 0;
 }
-
