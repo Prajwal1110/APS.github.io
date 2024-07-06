@@ -17,46 +17,8 @@
 The system processes payments by updating an unordered map that keeps track of the total payments for each driver. Each payment is added to the driver's total. The total payment for a driver can be retrieved efficiently using the driver's ID as the key.
 
 ### Example Code:
-```cpp
-#include <iostream>
-#include <unordered_map>
+[Payment](https://github.com/Prajwal1110/APS.github.io/blob/4fe48b6b49d7cb50246ddfd726f41dd9fa6cd80f/codes/payment.cpp)
 
-using namespace std;
-
-struct Payment {
-    int driverId;
-    double amount;
-    // Other attributes as needed
-};
-
-class PaymentSystem {
-private:
-    unordered_map<int, double> driverPayments;
-
-public:
-    void processPayment(const Payment& payment) {
-        driverPayments[payment.driverId] += payment.amount;
-    }
-
-    double getTotalPaymentForDriver(int driverId) {
-        if (driverPayments.find(driverId) != driverPayments.end()) {
-            return driverPayments[driverId];
-        }
-        return 0.0; // Default if no payments found
-    }
-};
-
-int main() {
-    PaymentSystem ps;
-    ps.processPayment({1, 50.0});
-    ps.processPayment({2, 65.0});
-
-    double totalPayment = ps.getTotalPaymentForDriver(1);
-    cout << "Total Payment for Driver 1: $" << totalPayment << endl;
-
-    return 0;
-}
-```
 #### Time Complexity:
 - **processPayment Operation (processPayment function):**
   - Time Complexity: O(1) on average, O(n) in the worst case due to hash collisions.
