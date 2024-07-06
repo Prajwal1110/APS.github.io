@@ -17,41 +17,8 @@ Surge pricing algorithms are essential in ride-sharing applications to dynamical
 The Surge Pricing algorithm adjusts the fare based on a base fare and a surge multiplier during peak times.
 
 #### Example Code (C++):
-```cpp
-#include <iostream>
+[Pricing](https://github.com/Prajwal1110/APS.github.io/blob/959e0ad7a66cc6cf6ba4f2f18f5e9924a0ca41a0/codes/pricing.cpp)
 
-using namespace std;
-
-class SurgePricing {
-private:
-    double baseFare;
-    double surgeMultiplier;
-
-public:
-    SurgePricing(double base, double multiplier)
-        : baseFare(base), surgeMultiplier(multiplier) {}
-
-    double calculateFare(int distance, bool isPeakTime) {
-        double fare = baseFare * distance;
-        if (isPeakTime) {
-            fare *= surgeMultiplier;
-        }
-        return fare;
-    }
-};
-
-int main() {
-    SurgePricing pricing(1.5, 2.0); // Base fare $1.5, Surge multiplier 2.0x
-
-    double fareNormal = pricing.calculateFare(10, false);
-    double fareSurge = pricing.calculateFare(10, true);
-
-    cout << "Normal Fare: $" << fareNormal << endl;
-    cout << "Surge Fare: $" << fareSurge << endl;
-
-    return 0;
-}
-```
 #### Time Complexity:
 - **calculateFare Operation (calculateFare function):**
   - Time Complexity: O(1)
