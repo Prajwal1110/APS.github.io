@@ -49,6 +49,16 @@ In this section, we will explore various algorithms and data structures used by 
    <br>[Dynamic Pricing](dynamicpricing.md)
 5. **Payment Processing**:
     <br>[Payment Processing](payementprocessing.md)
+6. **Shortest Path**:
+    <br>[Shortest Path](path.md)
+7. **Route Optimization for multiple path**:
+    <br>[Route Optimization](routeoptimization.md)
+8. **Customer Feedback**:
+    <br>[Customer Feedback](feedback.md)
+9. **Surge Pricing**:
+    <br>[Surge Pricing](pricing.md)
+10. **Driver Payment Settlement**:
+    <br>[Driver Payment](payment.md)
 
 ---
 
