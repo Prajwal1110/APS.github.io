@@ -16,3 +16,11 @@
 
 ## Example Code (C++)
 [Dynamic Pricing](https://github.com/Prajwal1110/APS.github.io/blob/9f441d0ef8618a5b4998b1feac603253ebb6d40a/codes/dynamicpricing.cpp)
+
+## Space and Time Complexity
+- **Time Complexity**:O((k + m) log n)
+                    - k is the number of calls to updatePrice.
+                    - m is the number of calls to getHighestPriceLocation.
+                    - n is the maximum number of elements in the priority queue.
+- **Space Complexity**:O(n)
+                    - n is the maximum number of elements in the priority queue at any given time.
