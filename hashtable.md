@@ -17,3 +17,12 @@ Hash tables use a hashing function to store and retrieve user data efficiently.
 ## Code Example
 [Hashtable](https://github.com/Prajwal1110/APS.github.io/blob/2304af33e666e0761fef95591c9c551af5dd32a2/codes/hashtable.cpp)
 
+## Space and Time Complexity
+**Space Complexity**:
+
+- O(n * m), where `n` is the number of users and `m` is the number of fields in each user's information map.
+
+**Time Complexity**:
+
+- Average case: O(1) for each operation (`addUser`, `getUser`, `deleteUser`).
+- Worst case: O(n) for each operation due to potential hash collisions in the unordered map.
