@@ -16,5 +16,10 @@ In the context of ride-hailing services like Ola and Uber, payment processing re
 - **Merkle Tree**: Used for ensuring data integrity and security by creating a tree of hashes.
 
 ## Code Example
-[paymentprocessing](paymentprocessing.cpp)
+[Paymentprocessing](paymentprocessing.cpp)
 [Transactions](transactions.cpp)
+
+**Space and Time Complexity**:
+   **Time Complexity:** O(n)
+  
+   **Space Complexity:** O(n)
