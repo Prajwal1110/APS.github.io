@@ -18,3 +18,11 @@
 
 ### Example Code (C++):
  [Shortest Path](https://github.com/Prajwal1110/APS.github.io/blob/ffbdb821a91de582140357673221585b145efe10/codes/shortestpath.cpp)
+
+### Time Complexity:
+- **Dijkstra's Algorithm:**
+  - Time Complexity: O((V + E) log V)
+  
+### Space Complexity:
+- **Dijkstra's Algorithm:**
+  - Space Complexity: O(V + E)
