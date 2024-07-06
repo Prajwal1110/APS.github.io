@@ -19,8 +19,8 @@
 
 ## Space and Time Complexity
 - **Time Complexity**:O((k + m) log n)
--                     k is the number of calls to updatePrice.
--                     m is the number of calls to getHighestPriceLocation.
--                     n is the maximum number of elements in the priority queue.
+- k is the number of calls to updatePrice.
+- m is the number of calls to getHighestPriceLocation.
+- n is the maximum number of elements in the priority queue.
 - **Space Complexity**:O(n)
--                     n is the maximum number of elements in the priority queue at any given time.
+- n is the maximum number of elements in the priority queue at any given time.
