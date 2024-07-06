@@ -48,7 +48,7 @@ In this section, we will explore various algorithms and data structures used by 
 4. **Dynamic Pricing**:
    <br>[Dynamic Pricing](dynamicpricing.md)
 5. **Payment Processing**:
-    <br>[Payment Processing](paymentprocessing.md)
+    <br>[Payment Processing](payementprocessing.md)
 
 ---
 
